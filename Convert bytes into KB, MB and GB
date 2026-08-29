@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    double bytes, kb, mb, gb;
+    printf("Enter number of bytes: ");
+    scanf("%lf", &bytes);
+    
+    kb = bytes / 1024.0;
+    mb = kb / 1024.0;
+    gb = mb / 1024.0;
+    
+    printf("KB: %.4f\n", kb);
+    printf("MB: %.6f\n", mb);
+    printf("GB: %.8f\n", gb);
+    return 0;
+}
