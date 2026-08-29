@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    float P, R, N, interest;
+    printf("Enter Principal amount (P), Rate of interest (R), and Number of years (N): ");
+    scanf("%f %f %f", &P, &R, &N);
+    interest = (P * R * N) / 100;
+    printf("Simple Interest = %.2f\n", interest);
+    return 0;
+}
